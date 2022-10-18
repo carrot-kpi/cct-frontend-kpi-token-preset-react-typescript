@@ -21,12 +21,11 @@
   "scripts": {
     "lint": "eslint --ext .ts,.tsx ./src ./scripts && prettier --check ./src ./scripts",
     "build": "node ./scripts/build.js",
-    "start": "node ./scripts/run.js",
     "test": "jest"
   },
   "devDependencies": {
-    "@carrot-kpi/react": "^0.2.0",
-    "@carrot-kpi/sdk": "^1.0.0",
+    "@carrot-kpi/react": "^0.3.1",
+    "@carrot-kpi/sdk": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/git-rev-sync": "^2.0.0",
